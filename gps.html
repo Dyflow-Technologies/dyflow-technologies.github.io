@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dyflow Iframe Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        /* Navigation bar */
+        nav {
+            background-color: #007BFF; /* Bootstrap blue */
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .iframe-container {
+            flex-grow: 1;
+            min-height: 60%;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            Dyflow
+        </nav>
+        <div class="iframe-container">
+            <iframe src="https://www.sinotrack.com/index.html?v=20250430172345"></iframe>
+        </div>
+    </div>
+</body>
+</html>
